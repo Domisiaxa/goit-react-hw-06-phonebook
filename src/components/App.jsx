@@ -7,9 +7,9 @@ export const App = () => {
   return (
     <>
       <div className={style.main}>
-        <h1>Phonebook</h1>
+        <h1 className={style.title}>Phonebook</h1>
         <Form />
-        <h2>Contacts</h2>
+        <h2 className={style.title}>Contacts</h2>
         <Filter />
         <Contacts />
       </div>
